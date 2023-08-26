@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 0.5em;
+    background-color: #88c5a3;
+    border-radius: 5px;
+}
+.logo {
+    max-width: 40px;
+    height: 40px;
+}
+
+nav h1 {
+    font-size: 1rem;
+    color: white;
+}
+
+.destination-container {
+    display:flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.destination-img {
+    
+    width: 125px;
+    border-radius: 5px;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    
+}
+.location-details {
+    display: flex;
+    align-items: center;
+}
+.location-img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.2rem;
+}
+.location-name {
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.location-url {
+    color: grey;
+    font-size: 14px;
+}
+h2 {
+    margin:0 0.2rem;
+    padding-bottom: 1rem;
+    color: #2B283A;
+}
+.date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.description {
+    font-size: 14px;
+    color: #2B283A;
+    margin-top: 0;
+    line-height: 1.5;
+    max-width: 326px;
+}
