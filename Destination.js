@@ -16,7 +16,7 @@ export default function Destination(props){
 
            <h2>{props.item.title}</h2>
            <p className="date">12 Oct, 2025-30 Oct, 2025</p>
-           <p className="description">Norway's second-largest island with fishing towns, trails in the mountains and bathing beaches.</p>
+           <p className="description">{props.item.description}</p>
         </div>
         </div>
            
