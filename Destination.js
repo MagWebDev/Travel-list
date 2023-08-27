@@ -2,7 +2,7 @@ import React from "react"
 
 
 export default function Destination(props){
-    console.log(props)
+
     return (
         <div>
         <div className="destination-container">
